@@ -11,10 +11,10 @@ class DataService {
     static let instance = DataService()
     
     private let categories = [
-        Category(title: "Shirts", imageName: "shirts.png"),
-        Category(title: "Hoodies", imageName: "hoodies.png"),
-        Category(title: "Hats", imageName: "hats.png"),
-        Category(title: "Digital", imageName: "digital.png")
+        Category(title: "SHIRTS", imageName: "shirts.png"),
+        Category(title: "HOODIES", imageName: "hoodies.png"),
+        Category(title: "HATS", imageName: "hats.png"),
+        Category(title: "DIGITAL", imageName: "digital.png")
     ]
     
     private let hats = [
@@ -27,10 +27,10 @@ class DataService {
     ]
     
     private let hoodies = [
-        Product(title: "Devslopes Logo Hoodie Grey", price: "$32", imageName: "hoodies01.png"),
-        Product(title: "Devslopes Logo Hoodie Red", price: "$32", imageName: "hoodies02.png"),
-        Product(title: "Devslopes Logo Hoodie Grey", price: "$32", imageName: "hoodies03.png"),
-        Product(title: "Devslopes Logo Hoodie Black", price: "$32", imageName: "hoodies04.png")
+        Product(title: "Devslopes Logo Hoodie Grey", price: "$32", imageName: "hoodie01.png"),
+        Product(title: "Devslopes Logo Hoodie Red", price: "$32", imageName: "hoodie02.png"),
+        Product(title: "Devslopes Logo Hoodie Grey", price: "$32", imageName: "hoodie03.png"),
+        Product(title: "Devslopes Logo Hoodie Black", price: "$32", imageName: "hoodie04.png")
     ]
     
     private let shirts = [
